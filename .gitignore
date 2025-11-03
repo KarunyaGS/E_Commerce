@@ -1,0 +1,37 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env/
+.env
+
+# Django stuff
+db.sqlite3
+*.log
+media/
+staticfiles/
+
+# Environment files
+.env.example  # keep only if you want to track template env
+!.env.example # un-ignore the example env
+
+# Node / frontend stuff
+ecommerce-frontend/node_modules/
+ecommerce-frontend/.next/
+ecommerce-frontend/build/
+ecommerce-frontend/dist/
+ecommerce-frontend/.env
+ecommerce-frontend/.DS_Store
+
+# IDE settings
+.vscode/
+.idea/
+*.code-workspace
+
+# OS-specific junk
+.DS_Store
+Thumbs.db
