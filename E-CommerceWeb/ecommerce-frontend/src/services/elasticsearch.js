@@ -1,3 +1,5 @@
+//Elasticsearch IMplemeneted
+
 // Browser-compatible Elasticsearch service using fetch API
 const ELASTICSEARCH_URL = 'http://localhost:9200';
 
