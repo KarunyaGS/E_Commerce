@@ -1,3 +1,4 @@
+# product and category API
 from django.urls import path
 from . import views
 from .views import RegisterView, search_products, bulk_create_products, CustomTokenObtainPairView, elasticsearch_fulltext_search
